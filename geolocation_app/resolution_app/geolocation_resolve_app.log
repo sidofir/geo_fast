@@ -1,0 +1,847 @@
+2024-01-31 10:55:51,770 [INFO] - Scheduler started
+2024-01-31 10:55:51,793 [INFO] - Added job "process_pending_requests_closure.<locals>.process_pending_requests" to job store "default"
+2024-01-31 10:55:51,793 [INFO] - Scheduled background task to process pending geolocation requests.
+2024-01-31 10:56:51,794 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 10:56:51 IST)" (scheduled at 2024-01-31 10:56:51.793376+02:00)
+2024-01-31 10:56:51,794 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 10:57:51 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 75, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'generator' object has no attribute 'query'
+2024-01-31 10:57:51,794 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 10:58:51 IST)" (scheduled at 2024-01-31 10:57:51.793376+02:00)
+2024-01-31 10:57:51,794 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 10:58:51 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 75, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'generator' object has no attribute 'query'
+2024-01-31 10:58:14,309 [INFO] - Scheduler has been shut down
+2024-01-31 10:58:14,310 [INFO] - Shutting down the background scheduler.
+2024-01-31 10:58:28,108 [INFO] - Scheduler started
+2024-01-31 10:58:28,129 [INFO] - Added job "process_pending_requests_closure.<locals>.process_pending_requests" to job store "default"
+2024-01-31 10:58:28,129 [INFO] - Scheduled background task to process pending geolocation requests.
+2024-01-31 10:59:28,131 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 10:59:28 IST)" (scheduled at 2024-01-31 10:59:28.129586+02:00)
+2024-01-31 10:59:28,132 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:00:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:00:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:01:28 IST)" (scheduled at 2024-01-31 11:00:28.129586+02:00)
+2024-01-31 11:00:28,130 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:01:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:01:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:02:28 IST)" (scheduled at 2024-01-31 11:01:28.129586+02:00)
+2024-01-31 11:01:28,131 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:02:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:02:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:03:28 IST)" (scheduled at 2024-01-31 11:02:28.129586+02:00)
+2024-01-31 11:02:28,130 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:03:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:03:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:04:28 IST)" (scheduled at 2024-01-31 11:03:28.129586+02:00)
+2024-01-31 11:03:28,131 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:04:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:04:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:05:28 IST)" (scheduled at 2024-01-31 11:04:28.129586+02:00)
+2024-01-31 11:04:28,131 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:05:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:05:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:06:28 IST)" (scheduled at 2024-01-31 11:05:28.129586+02:00)
+2024-01-31 11:05:28,130 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:06:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:06:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:07:28 IST)" (scheduled at 2024-01-31 11:06:28.129586+02:00)
+2024-01-31 11:06:28,131 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:07:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:07:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:08:28 IST)" (scheduled at 2024-01-31 11:07:28.129586+02:00)
+2024-01-31 11:07:28,131 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:08:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:08:28,131 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:09:28 IST)" (scheduled at 2024-01-31 11:08:28.129586+02:00)
+2024-01-31 11:08:28,132 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:09:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:09:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:10:28 IST)" (scheduled at 2024-01-31 11:09:28.129586+02:00)
+2024-01-31 11:09:28,130 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:10:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:10:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:11:28 IST)" (scheduled at 2024-01-31 11:10:28.129586+02:00)
+2024-01-31 11:10:28,131 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:11:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:11:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:12:28 IST)" (scheduled at 2024-01-31 11:11:28.129586+02:00)
+2024-01-31 11:11:28,131 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:12:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:12:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:13:28 IST)" (scheduled at 2024-01-31 11:12:28.129586+02:00)
+2024-01-31 11:12:28,130 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:13:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:13:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:14:28 IST)" (scheduled at 2024-01-31 11:13:28.129586+02:00)
+2024-01-31 11:13:28,130 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:14:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:14:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:15:28 IST)" (scheduled at 2024-01-31 11:14:28.129586+02:00)
+2024-01-31 11:14:28,131 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:15:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:15:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:16:28 IST)" (scheduled at 2024-01-31 11:15:28.129586+02:00)
+2024-01-31 11:15:28,130 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:16:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:16:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:17:28 IST)" (scheduled at 2024-01-31 11:16:28.129586+02:00)
+2024-01-31 11:16:28,131 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:17:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:17:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:18:28 IST)" (scheduled at 2024-01-31 11:17:28.129586+02:00)
+2024-01-31 11:17:28,131 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:18:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:18:28,131 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:19:28 IST)" (scheduled at 2024-01-31 11:18:28.129586+02:00)
+2024-01-31 11:18:28,131 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:19:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:19:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:20:28 IST)" (scheduled at 2024-01-31 11:19:28.129586+02:00)
+2024-01-31 11:19:28,130 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:20:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:20:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:21:28 IST)" (scheduled at 2024-01-31 11:20:28.129586+02:00)
+2024-01-31 11:20:28,130 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:21:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:21:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:22:28 IST)" (scheduled at 2024-01-31 11:21:28.129586+02:00)
+2024-01-31 11:21:28,131 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:22:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:22:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:23:28 IST)" (scheduled at 2024-01-31 11:22:28.129586+02:00)
+2024-01-31 11:22:28,131 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:23:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:23:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:24:28 IST)" (scheduled at 2024-01-31 11:23:28.129586+02:00)
+2024-01-31 11:23:28,131 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:24:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:24:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:25:28 IST)" (scheduled at 2024-01-31 11:24:28.129586+02:00)
+2024-01-31 11:24:28,131 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:25:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:25:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:26:28 IST)" (scheduled at 2024-01-31 11:25:28.129586+02:00)
+2024-01-31 11:25:28,130 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:26:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:26:28,131 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:27:28 IST)" (scheduled at 2024-01-31 11:26:28.129586+02:00)
+2024-01-31 11:26:28,132 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:27:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:27:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:28:28 IST)" (scheduled at 2024-01-31 11:27:28.129586+02:00)
+2024-01-31 11:27:28,131 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:28:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:28:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:29:28 IST)" (scheduled at 2024-01-31 11:28:28.129586+02:00)
+2024-01-31 11:28:28,131 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:29:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:29:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:30:28 IST)" (scheduled at 2024-01-31 11:29:28.129586+02:00)
+2024-01-31 11:29:28,131 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:30:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:30:28,131 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:31:28 IST)" (scheduled at 2024-01-31 11:30:28.129586+02:00)
+2024-01-31 11:30:28,131 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:31:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:31:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:32:28 IST)" (scheduled at 2024-01-31 11:31:28.129586+02:00)
+2024-01-31 11:31:28,130 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:32:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:32:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:33:28 IST)" (scheduled at 2024-01-31 11:32:28.129586+02:00)
+2024-01-31 11:32:28,132 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:33:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:33:28,131 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:34:28 IST)" (scheduled at 2024-01-31 11:33:28.129586+02:00)
+2024-01-31 11:33:28,132 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:34:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:34:28,131 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:35:28 IST)" (scheduled at 2024-01-31 11:34:28.129586+02:00)
+2024-01-31 11:34:28,131 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:35:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:35:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:36:28 IST)" (scheduled at 2024-01-31 11:35:28.129586+02:00)
+2024-01-31 11:35:28,131 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:36:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:36:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:37:28 IST)" (scheduled at 2024-01-31 11:36:28.129586+02:00)
+2024-01-31 11:36:28,130 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:37:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:37:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:38:28 IST)" (scheduled at 2024-01-31 11:37:28.129586+02:00)
+2024-01-31 11:37:28,131 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:38:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:38:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:39:28 IST)" (scheduled at 2024-01-31 11:38:28.129586+02:00)
+2024-01-31 11:38:28,130 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:39:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:39:28,129 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:40:28 IST)" (scheduled at 2024-01-31 11:39:28.129586+02:00)
+2024-01-31 11:39:28,130 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:40:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:48:13,767 [WARNING] - Run time of job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:48:28 IST)" was missed by 0:00:45.637466
+2024-01-31 11:48:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:49:28 IST)" (scheduled at 2024-01-31 11:48:28.129586+02:00)
+2024-01-31 11:48:28,130 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:49:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:49:28,130 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:50:28 IST)" (scheduled at 2024-01-31 11:49:28.129586+02:00)
+2024-01-31 11:49:28,130 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:50:28 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'Depends' object has no attribute 'query'
+2024-01-31 11:49:51,518 [INFO] - Scheduler has been shut down
+2024-01-31 11:49:51,518 [INFO] - Shutting down the background scheduler.
+2024-01-31 11:51:27,423 [INFO] - Scheduler started
+2024-01-31 11:51:27,447 [INFO] - Added job "process_pending_requests_closure.<locals>.process_pending_requests" to job store "default"
+2024-01-31 11:51:27,448 [INFO] - Scheduled background task to process pending geolocation requests.
+2024-01-31 11:52:27,448 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:53:27 IST)" (scheduled at 2024-01-31 11:52:27.447790+02:00)
+2024-01-31 11:52:27,448 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:53:27 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'generator' object has no attribute 'query'
+2024-01-31 11:53:27,448 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:54:27 IST)" (scheduled at 2024-01-31 11:53:27.447790+02:00)
+2024-01-31 11:53:27,448 [ERROR] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:54:27 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 74, in process_pending_requests
+    db.query(GeolocationRequestModel)
+AttributeError: 'generator' object has no attribute 'query'
+2024-01-31 11:53:55,900 [INFO] - Scheduler has been shut down
+2024-01-31 11:53:55,901 [INFO] - Shutting down the background scheduler.
+2024-01-31 11:53:56,581 [INFO] - Scheduler started
+2024-01-31 11:53:56,602 [INFO] - Added job "process_pending_requests_closure.<locals>.process_pending_requests" to job store "default"
+2024-01-31 11:53:56,603 [INFO] - Scheduled background task to process pending geolocation requests.
+2024-01-31 11:54:56,603 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:55:56 IST)" (scheduled at 2024-01-31 11:54:56.602623+02:00)
+2024-01-31 11:54:56,606 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-01-31 11:54:56,606 [INFO] - Scheduled resolution for request ID 2500357308631895345
+2024-01-31 11:54:56,606 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-01-31 11:54:56,606 [INFO] - Scheduled resolution for request ID 7289135095934211802
+2024-01-31 11:54:56,607 [INFO] - Running job "resolve_geolocation (trigger: date[2024-01-31 11:54:56 IST], next run at: 2024-01-31 11:54:56 IST)" (scheduled at 2024-01-31 11:54:56.606680+02:00)
+2024-01-31 11:54:56,607 [INFO] - Removed job 2500357308631895345
+2024-01-31 11:54:56,607 [INFO] - Running job "resolve_geolocation (trigger: date[2024-01-31 11:54:56 IST], next run at: 2024-01-31 11:54:56 IST)" (scheduled at 2024-01-31 11:54:56.606851+02:00)
+2024-01-31 11:54:56,608 [INFO] - Removed job 7289135095934211802
+2024-01-31 11:54:56,608 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-01-31 11:54:56,608 [INFO] - Scheduled resolution for request ID 2498439626606189971
+2024-01-31 11:54:56,608 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-01-31 11:54:56,608 [INFO] - Scheduled resolution for request ID -6521233248326306693
+2024-01-31 11:54:56,608 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-01-31 11:54:56,608 [INFO] - Scheduled resolution for request ID -5975948494375565236
+2024-01-31 11:54:56,608 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-01-31 11:54:56,608 [INFO] - Scheduled resolution for request ID -4232152583014192288
+2024-01-31 11:54:56,608 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:55:56 IST)" executed successfully
+2024-01-31 11:54:56,608 [INFO] - Removed job 2498439626606189971
+2024-01-31 11:54:56,609 [INFO] - Running job "resolve_geolocation (trigger: date[2024-01-31 11:54:56 IST], next run at: 2024-01-31 11:54:56 IST)" (scheduled at 2024-01-31 11:54:56.606962+02:00)
+2024-01-31 11:54:56,609 [INFO] - Running job "resolve_geolocation (trigger: date[2024-01-31 11:54:56 IST], next run at: 2024-01-31 11:54:56 IST)" (scheduled at 2024-01-31 11:54:56.608507+02:00)
+2024-01-31 11:54:56,609 [INFO] - Removed job -6521233248326306693
+2024-01-31 11:54:56,609 [INFO] - Running job "resolve_geolocation (trigger: date[2024-01-31 11:54:56 IST], next run at: 2024-01-31 11:54:56 IST)" (scheduled at 2024-01-31 11:54:56.608617+02:00)
+2024-01-31 11:54:56,609 [INFO] - Removed job -5975948494375565236
+2024-01-31 11:54:56,609 [INFO] - Running job "resolve_geolocation (trigger: date[2024-01-31 11:54:56 IST], next run at: 2024-01-31 11:54:56 IST)" (scheduled at 2024-01-31 11:54:56.608701+02:00)
+2024-01-31 11:54:56,609 [INFO] - Removed job -4232152583014192288
+2024-01-31 11:54:56,762 [ERROR] - Job "resolve_geolocation (trigger: date[2024-01-31 11:54:56 IST], next run at: 2024-01-31 11:54:56 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 54, in resolve_geolocation
+    with db.begin():
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1880, in begin
+    raise sa_exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: A transaction is already begun on this Session.
+2024-01-31 11:54:56,763 [ERROR] - Job "resolve_geolocation (trigger: date[2024-01-31 11:54:56 IST], next run at: 2024-01-31 11:54:56 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 54, in resolve_geolocation
+    with db.begin():
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1880, in begin
+    raise sa_exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: A transaction is already begun on this Session.
+2024-01-31 11:54:56,764 [ERROR] - Job "resolve_geolocation (trigger: date[2024-01-31 11:54:56 IST], next run at: 2024-01-31 11:54:56 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 54, in resolve_geolocation
+    with db.begin():
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1880, in begin
+    raise sa_exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: A transaction is already begun on this Session.
+2024-01-31 11:54:56,764 [ERROR] - Job "resolve_geolocation (trigger: date[2024-01-31 11:54:56 IST], next run at: 2024-01-31 11:54:56 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 54, in resolve_geolocation
+    with db.begin():
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1880, in begin
+    raise sa_exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: A transaction is already begun on this Session.
+2024-01-31 11:54:56,764 [ERROR] - Job "resolve_geolocation (trigger: date[2024-01-31 11:54:56 IST], next run at: 2024-01-31 11:54:56 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 54, in resolve_geolocation
+    with db.begin():
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1880, in begin
+    raise sa_exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: A transaction is already begun on this Session.
+2024-01-31 11:54:56,767 [ERROR] - Job "resolve_geolocation (trigger: date[2024-01-31 11:54:56 IST], next run at: 2024-01-31 11:54:56 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 54, in resolve_geolocation
+    with db.begin():
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1880, in begin
+    raise sa_exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: A transaction is already begun on this Session.
+2024-01-31 11:55:27,886 [INFO] - Scheduler has been shut down
+2024-01-31 11:55:27,887 [INFO] - Shutting down the background scheduler.
+2024-01-31 11:56:58,831 [INFO] - Scheduler started
+2024-01-31 11:56:58,856 [INFO] - Added job "process_pending_requests_closure.<locals>.process_pending_requests" to job store "default"
+2024-01-31 11:56:58,856 [INFO] - Scheduled background task to process pending geolocation requests.
+2024-01-31 11:57:58,856 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:57:58 IST)" (scheduled at 2024-01-31 11:57:58.855754+02:00)
+2024-01-31 11:57:58,862 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-01-31 11:57:58,862 [INFO] - Scheduled resolution for request ID 2500357308631895345
+2024-01-31 11:57:58,862 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-01-31 11:57:58,862 [INFO] - Scheduled resolution for request ID 7289135095934211802
+2024-01-31 11:57:58,862 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-01-31 11:57:58,862 [INFO] - Scheduled resolution for request ID 2498439626606189971
+2024-01-31 11:57:58,862 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-01-31 11:57:58,862 [INFO] - Scheduled resolution for request ID -6521233248326306693
+2024-01-31 11:57:58,863 [INFO] - Running job "resolve_geolocation (trigger: date[2024-01-31 11:57:58 IST], next run at: 2024-01-31 11:57:58 IST)" (scheduled at 2024-01-31 11:57:58.862523+02:00)
+2024-01-31 11:57:58,863 [INFO] - Removed job 2500357308631895345
+2024-01-31 11:57:58,864 [INFO] - Running job "resolve_geolocation (trigger: date[2024-01-31 11:57:58 IST], next run at: 2024-01-31 11:57:58 IST)" (scheduled at 2024-01-31 11:57:58.862734+02:00)
+2024-01-31 11:57:58,864 [INFO] - Removed job 7289135095934211802
+2024-01-31 11:57:58,864 [INFO] - Running job "resolve_geolocation (trigger: date[2024-01-31 11:57:58 IST], next run at: 2024-01-31 11:57:58 IST)" (scheduled at 2024-01-31 11:57:58.862838+02:00)
+2024-01-31 11:57:58,864 [INFO] - Removed job 2498439626606189971
+2024-01-31 11:57:58,865 [INFO] - Running job "resolve_geolocation (trigger: date[2024-01-31 11:57:58 IST], next run at: 2024-01-31 11:57:58 IST)" (scheduled at 2024-01-31 11:57:58.862919+02:00)
+2024-01-31 11:57:58,865 [INFO] - Removed job -6521233248326306693
+2024-01-31 11:57:58,866 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-01-31 11:57:58,866 [INFO] - Scheduled resolution for request ID -5975948494375565236
+2024-01-31 11:57:58,866 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-01-31 11:57:58,866 [INFO] - Scheduled resolution for request ID -4232152583014192288
+2024-01-31 11:57:58,866 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 11:58:58 IST)" executed successfully
+2024-01-31 11:57:58,867 [INFO] - Removed job -5975948494375565236
+2024-01-31 11:57:58,868 [INFO] - Running job "resolve_geolocation (trigger: date[2024-01-31 11:57:58 IST], next run at: 2024-01-31 11:57:58 IST)" (scheduled at 2024-01-31 11:57:58.863224+02:00)
+2024-01-31 11:57:58,868 [INFO] - Running job "resolve_geolocation (trigger: date[2024-01-31 11:57:58 IST], next run at: 2024-01-31 11:57:58 IST)" (scheduled at 2024-01-31 11:57:58.866117+02:00)
+2024-01-31 11:57:58,868 [INFO] - Removed job -4232152583014192288
+2024-01-31 11:57:59,034 [WARNING] - Transaction already in progress. Skipping update.
+2024-01-31 11:57:59,036 [WARNING] - Transaction already in progress. Skipping update.
+2024-01-31 11:57:59,037 [WARNING] - Transaction already in progress. Skipping update.
+2024-01-31 11:57:59,037 [WARNING] - Transaction already in progress. Skipping update.
+2024-01-31 11:57:59,039 [WARNING] - Transaction already in progress. Skipping update.
+2024-01-31 11:57:59,039 [WARNING] - Transaction already in progress. Skipping update.
+2024-01-31 11:57:59,041 [ERROR] - Job "resolve_geolocation (trigger: date[2024-01-31 11:57:58 IST], next run at: 2024-01-31 11:57:58 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 71, in resolve_geolocation
+    db.commit()
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1969, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/state_changes.py", line 121, in _go
+    raise sa_exc.IllegalStateChangeError(
+sqlalchemy.exc.IllegalStateChangeError: Method 'commit()' can't be called here; method 'commit()' is already in progress and this would cause an unexpected state change to <SessionTransactionState.CLOSED: 5> (Background on this error at: https://sqlalche.me/e/20/isce)
+2024-01-31 11:57:59,041 [ERROR] - Job "resolve_geolocation (trigger: date[2024-01-31 11:57:58 IST], next run at: 2024-01-31 11:57:58 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 71, in resolve_geolocation
+    db.commit()
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1969, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/state_changes.py", line 121, in _go
+    raise sa_exc.IllegalStateChangeError(
+sqlalchemy.exc.IllegalStateChangeError: Method 'commit()' can't be called here; method 'commit()' is already in progress and this would cause an unexpected state change to <SessionTransactionState.CLOSED: 5> (Background on this error at: https://sqlalche.me/e/20/isce)
+2024-01-31 11:57:59,042 [ERROR] - Job "resolve_geolocation (trigger: date[2024-01-31 11:57:58 IST], next run at: 2024-01-31 11:57:58 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 71, in resolve_geolocation
+    db.commit()
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1969, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/state_changes.py", line 121, in _go
+    raise sa_exc.IllegalStateChangeError(
+sqlalchemy.exc.IllegalStateChangeError: Method 'commit()' can't be called here; method 'commit()' is already in progress and this would cause an unexpected state change to <SessionTransactionState.CLOSED: 5> (Background on this error at: https://sqlalche.me/e/20/isce)
+2024-01-31 11:57:59,042 [ERROR] - Job "resolve_geolocation (trigger: date[2024-01-31 11:57:58 IST], next run at: 2024-01-31 11:57:58 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 71, in resolve_geolocation
+    db.commit()
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1969, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/state_changes.py", line 121, in _go
+    raise sa_exc.IllegalStateChangeError(
+sqlalchemy.exc.IllegalStateChangeError: Method 'commit()' can't be called here; method 'commit()' is already in progress and this would cause an unexpected state change to <SessionTransactionState.CLOSED: 5> (Background on this error at: https://sqlalche.me/e/20/isce)
+2024-01-31 11:57:59,042 [ERROR] - Job "resolve_geolocation (trigger: date[2024-01-31 11:57:58 IST], next run at: 2024-01-31 11:57:58 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 71, in resolve_geolocation
+    db.commit()
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1969, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/state_changes.py", line 121, in _go
+    raise sa_exc.IllegalStateChangeError(
+sqlalchemy.exc.IllegalStateChangeError: Method 'commit()' can't be called here; method 'commit()' is already in progress and this would cause an unexpected state change to <SessionTransactionState.CLOSED: 5> (Background on this error at: https://sqlalche.me/e/20/isce)
+2024-01-31 11:57:59,055 [INFO] - Job "resolve_geolocation (trigger: date[2024-01-31 11:57:58 IST], next run at: 2024-01-31 11:57:58 IST)" executed successfully
+2024-01-31 11:58:03,559 [INFO] - Scheduler has been shut down
+2024-01-31 11:58:03,560 [INFO] - Shutting down the background scheduler.
+2024-01-31 12:03:43,849 [INFO] - Scheduler started
+2024-01-31 12:03:43,877 [INFO] - Added job "process_pending_requests_closure.<locals>.process_pending_requests" to job store "default"
+2024-01-31 12:03:43,877 [INFO] - Scheduled background task to process pending geolocation requests.
+2024-01-31 12:04:43,877 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:04:43 IST)" (scheduled at 2024-01-31 12:04:43.876696+02:00)
+2024-01-31 12:04:43,880 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-01-31 12:04:43,880 [INFO] - Scheduled resolution for request ID 7289135095934211802
+2024-01-31 12:04:43,880 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-01-31 12:04:43,880 [INFO] - Scheduled resolution for request ID 2498439626606189971
+2024-01-31 12:04:43,880 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-01-31 12:04:43,880 [INFO] - Scheduled resolution for request ID -6521233248326306693
+2024-01-31 12:04:43,880 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-01-31 12:04:43,880 [INFO] - Scheduled resolution for request ID -5975948494375565236
+2024-01-31 12:04:43,880 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:05:43 IST)" executed successfully
+2024-01-31 12:04:43,880 [INFO] - Removed job 7289135095934211802
+2024-01-31 12:04:43,881 [INFO] - Running job "resolve_geolocation (trigger: date[2024-01-31 12:04:43 IST], next run at: 2024-01-31 12:04:43 IST)" (scheduled at 2024-01-31 12:04:43.880307+02:00)
+2024-01-31 12:04:43,881 [INFO] - Running job "resolve_geolocation (trigger: date[2024-01-31 12:04:43 IST], next run at: 2024-01-31 12:04:43 IST)" (scheduled at 2024-01-31 12:04:43.880494+02:00)
+2024-01-31 12:04:43,881 [INFO] - Removed job 2498439626606189971
+2024-01-31 12:04:43,882 [INFO] - Running job "resolve_geolocation (trigger: date[2024-01-31 12:04:43 IST], next run at: 2024-01-31 12:04:43 IST)" (scheduled at 2024-01-31 12:04:43.880594+02:00)
+2024-01-31 12:04:43,882 [INFO] - Removed job -6521233248326306693
+2024-01-31 12:04:43,882 [INFO] - Running job "resolve_geolocation (trigger: date[2024-01-31 12:04:43 IST], next run at: 2024-01-31 12:04:43 IST)" (scheduled at 2024-01-31 12:04:43.880676+02:00)
+2024-01-31 12:04:43,882 [INFO] - Removed job -5975948494375565236
+2024-01-31 12:04:44,046 [WARNING] - Transaction already in progress. Skipping update.
+2024-01-31 12:04:44,050 [ERROR] - Job "resolve_geolocation (trigger: date[2024-01-31 12:04:43 IST], next run at: 2024-01-31 12:04:43 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 71, in resolve_geolocation
+    db.commit()
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1969, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/state_changes.py", line 121, in _go
+    raise sa_exc.IllegalStateChangeError(
+sqlalchemy.exc.IllegalStateChangeError: Method 'commit()' can't be called here; method 'commit()' is already in progress and this would cause an unexpected state change to <SessionTransactionState.CLOSED: 5> (Background on this error at: https://sqlalche.me/e/20/isce)
+2024-01-31 12:04:44,051 [ERROR] - Job "resolve_geolocation (trigger: date[2024-01-31 12:04:43 IST], next run at: 2024-01-31 12:04:43 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 71, in resolve_geolocation
+    db.commit()
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1969, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/state_changes.py", line 103, in _go
+    self._raise_for_prerequisite_state(fn.__name__, current_state)
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 946, in _raise_for_prerequisite_state
+    raise sa_exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: This session is provisioning a new connection; concurrent operations are not permitted (Background on this error at: https://sqlalche.me/e/20/isce)
+2024-01-31 12:04:44,065 [INFO] - Job "resolve_geolocation (trigger: date[2024-01-31 12:04:43 IST], next run at: 2024-01-31 12:04:43 IST)" executed successfully
+2024-01-31 12:04:44,066 [ERROR] - Job "resolve_geolocation (trigger: date[2024-01-31 12:04:43 IST], next run at: 2024-01-31 12:04:43 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 71, in resolve_geolocation
+    db.commit()
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1967, in commit
+    trans = self._autobegin_t()
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1820, in _autobegin_t
+    trans = SessionTransaction(
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 887, in __init__
+    TransactionalContext._trans_ctx_check(session)
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/engine/util.py", line 110, in _trans_ctx_check
+    raise exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: Can't operate on closed transaction inside context manager.  Please complete the context manager before emitting further commands.
+2024-01-31 12:04:48,579 [INFO] - Scheduler has been shut down
+2024-01-31 12:04:48,580 [INFO] - Shutting down the background scheduler.
+2024-01-31 12:06:22,317 [INFO] - Scheduler started
+2024-01-31 12:06:22,338 [INFO] - Added job "process_pending_requests_closure.<locals>.process_pending_requests" to job store "default"
+2024-01-31 12:06:22,338 [INFO] - Scheduled background task to process pending geolocation requests.
+2024-01-31 12:07:22,339 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:07:22 IST)" (scheduled at 2024-01-31 12:07:22.338448+02:00)
+2024-01-31 12:07:22,345 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-01-31 12:07:22,345 [INFO] - Scheduled resolution for request ID -5975948494375565236
+2024-01-31 12:07:22,345 [INFO] - Running job "resolve_geolocation (trigger: date[2024-01-31 12:07:22 IST], next run at: 2024-01-31 12:07:22 IST)" (scheduled at 2024-01-31 12:07:22.344943+02:00)
+2024-01-31 12:07:22,345 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:08:22 IST)" executed successfully
+2024-01-31 12:07:22,346 [INFO] - Removed job -5975948494375565236
+2024-01-31 12:07:22,592 [INFO] - Job "resolve_geolocation (trigger: date[2024-01-31 12:07:22 IST], next run at: 2024-01-31 12:07:22 IST)" executed successfully
+2024-01-31 12:08:22,339 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:09:22 IST)" (scheduled at 2024-01-31 12:08:22.338448+02:00)
+2024-01-31 12:08:22,340 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:09:22 IST)" executed successfully
+2024-01-31 12:09:22,339 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:10:22 IST)" (scheduled at 2024-01-31 12:09:22.338448+02:00)
+2024-01-31 12:09:22,341 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:10:22 IST)" executed successfully
+2024-01-31 12:10:22,338 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:11:22 IST)" (scheduled at 2024-01-31 12:10:22.338448+02:00)
+2024-01-31 12:10:22,339 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:11:22 IST)" executed successfully
+2024-01-31 12:11:22,338 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:12:22 IST)" (scheduled at 2024-01-31 12:11:22.338448+02:00)
+2024-01-31 12:11:22,341 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:12:22 IST)" executed successfully
+2024-01-31 12:12:22,339 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:13:22 IST)" (scheduled at 2024-01-31 12:12:22.338448+02:00)
+2024-01-31 12:12:22,340 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:13:22 IST)" executed successfully
+2024-01-31 12:13:22,339 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:14:22 IST)" (scheduled at 2024-01-31 12:13:22.338448+02:00)
+2024-01-31 12:13:22,342 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:14:22 IST)" executed successfully
+2024-01-31 12:14:22,339 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:15:22 IST)" (scheduled at 2024-01-31 12:14:22.338448+02:00)
+2024-01-31 12:14:22,342 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:15:22 IST)" executed successfully
+2024-01-31 12:15:22,338 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:16:22 IST)" (scheduled at 2024-01-31 12:15:22.338448+02:00)
+2024-01-31 12:15:22,339 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:16:22 IST)" executed successfully
+2024-01-31 12:16:22,338 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:17:22 IST)" (scheduled at 2024-01-31 12:16:22.338448+02:00)
+2024-01-31 12:16:22,340 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:17:22 IST)" executed successfully
+2024-01-31 12:17:22,338 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:18:22 IST)" (scheduled at 2024-01-31 12:17:22.338448+02:00)
+2024-01-31 12:17:22,340 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:18:22 IST)" executed successfully
+2024-01-31 12:18:22,338 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:19:22 IST)" (scheduled at 2024-01-31 12:18:22.338448+02:00)
+2024-01-31 12:18:22,340 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:19:22 IST)" executed successfully
+2024-01-31 12:19:22,338 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:20:22 IST)" (scheduled at 2024-01-31 12:19:22.338448+02:00)
+2024-01-31 12:19:22,339 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:20:22 IST)" executed successfully
+2024-01-31 12:20:22,338 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:21:22 IST)" (scheduled at 2024-01-31 12:20:22.338448+02:00)
+2024-01-31 12:20:22,339 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:21:22 IST)" executed successfully
+2024-01-31 12:21:22,339 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:22:22 IST)" (scheduled at 2024-01-31 12:21:22.338448+02:00)
+2024-01-31 12:21:22,340 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:22:22 IST)" executed successfully
+2024-01-31 12:22:22,338 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:23:22 IST)" (scheduled at 2024-01-31 12:22:22.338448+02:00)
+2024-01-31 12:22:22,340 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:23:22 IST)" executed successfully
+2024-01-31 12:23:22,339 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:24:22 IST)" (scheduled at 2024-01-31 12:23:22.338448+02:00)
+2024-01-31 12:23:22,341 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:24:22 IST)" executed successfully
+2024-01-31 12:24:22,338 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:25:22 IST)" (scheduled at 2024-01-31 12:24:22.338448+02:00)
+2024-01-31 12:24:22,339 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:25:22 IST)" executed successfully
+2024-01-31 12:25:22,339 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:26:22 IST)" (scheduled at 2024-01-31 12:25:22.338448+02:00)
+2024-01-31 12:25:22,339 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:26:22 IST)" executed successfully
+2024-01-31 12:26:07,299 [INFO] - Scheduler started
+2024-01-31 12:26:22,339 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:27:22 IST)" (scheduled at 2024-01-31 12:26:22.338448+02:00)
+2024-01-31 12:26:22,339 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:27:22 IST)" executed successfully
+2024-01-31 12:26:30,120 [INFO] - Scheduler started
+2024-01-31 12:27:22,339 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:28:22 IST)" (scheduled at 2024-01-31 12:27:22.338448+02:00)
+2024-01-31 12:27:22,341 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:28:22 IST)" executed successfully
+2024-01-31 12:27:32,501 [INFO] - Scheduler started
+2024-01-31 12:27:32,508 [INFO] - HTTP Request: POST http://testserver/geolocation/request "HTTP/1.1 422 Unprocessable Entity"
+2024-01-31 12:28:22,339 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:29:22 IST)" (scheduled at 2024-01-31 12:28:22.338448+02:00)
+2024-01-31 12:28:22,342 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:29:22 IST)" executed successfully
+2024-01-31 12:29:22,338 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:30:22 IST)" (scheduled at 2024-01-31 12:29:22.338448+02:00)
+2024-01-31 12:29:22,339 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:30:22 IST)" executed successfully
+2024-01-31 12:30:06,704 [INFO] - Scheduler started
+2024-01-31 12:30:06,712 [INFO] - HTTP Request: POST http://localhost:8001/geolocation/request "HTTP/1.1 422 Unprocessable Entity"
+2024-01-31 12:30:22,338 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:31:22 IST)" (scheduled at 2024-01-31 12:30:22.338448+02:00)
+2024-01-31 12:30:22,339 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-01-31 12:31:22 IST)" executed successfully
+2024-01-31 12:30:30,340 [INFO] - Scheduler has been shut down
+2024-01-31 12:30:30,341 [INFO] - Shutting down the background scheduler.
+2024-01-31 12:30:37,507 [INFO] - Scheduler started
+2024-01-31 12:30:50,043 [INFO] - Scheduler started
+2024-01-31 12:30:50,050 [INFO] - HTTP Request: POST http://localhost:8001/geolocation/request "HTTP/1.1 422 Unprocessable Entity"
+2024-01-31 12:34:16,293 [INFO] - Scheduler started
+2024-01-31 12:34:16,316 [INFO] - HTTP Request: POST http://localhost:8001/geolocation/request "HTTP/1.1 422 Unprocessable Entity"
+2024-01-31 12:34:25,681 [INFO] - Scheduler started
+2024-01-31 12:34:25,703 [INFO] - HTTP Request: POST http://localhost:8001/geolocation/request "HTTP/1.1 422 Unprocessable Entity"
+2024-01-31 12:34:31,835 [INFO] - Scheduler started
+2024-01-31 12:34:35,879 [INFO] - HTTP Request: POST http://localhost:8001/geolocation/request "HTTP/1.1 422 Unprocessable Entity"
+2024-01-31 12:37:07,043 [INFO] - Scheduler started
+2024-01-31 12:37:19,129 [INFO] - Scheduler started
+2024-01-31 12:37:25,678 [INFO] - Scheduler started
+2024-01-31 12:38:44,032 [INFO] - Scheduler started
+2024-01-31 12:38:47,244 [INFO] - Scheduler started
+2024-01-31 12:38:52,085 [INFO] - Scheduler started
+2024-01-31 12:40:34,766 [INFO] - Scheduler started
+2024-01-31 12:40:40,766 [INFO] - Scheduler started
+2024-01-31 12:41:02,055 [INFO] - Scheduler started
+2024-01-31 12:41:04,132 [INFO] - Scheduler started
+2024-01-31 12:41:23,711 [INFO] - Geolocation request created successfully. Request ID: -1819454050232200498
+2024-01-31 12:45:58,999 [INFO] - Scheduler started
+2024-01-31 12:48:22,505 [INFO] - Scheduler started
+2024-01-31 12:49:50,080 [INFO] - Scheduler started
+2024-01-31 12:50:12,264 [INFO] - Scheduler started
+2024-01-31 12:52:53,990 [INFO] - Scheduler started
+2024-01-31 12:56:53,225 [INFO] - Scheduler started
+2024-01-31 12:57:17,065 [INFO] - Scheduler started
+2024-01-31 13:02:38,125 [INFO] - Scheduler started
+2024-02-01 09:12:31,944 [INFO] - Scheduler started
+2024-02-01 09:12:32,032 [INFO] - Added job "process_pending_requests_closure.<locals>.process_pending_requests" to job store "default"
+2024-02-01 09:12:32,032 [INFO] - Scheduled background task to process pending geolocation requests.
+2024-02-01 09:13:32,032 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-02-01 09:13:32 IST)" (scheduled at 2024-02-01 09:13:32.031163+02:00)
+2024-02-01 09:13:32,057 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-02-01 09:13:32,057 [INFO] - Scheduled resolution for request ID cdafb597414e61f0d4e06d7548b5a62b4e73946622812f88cc464dbcd6752af4
+2024-02-01 09:13:32,057 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-02-01 09:14:32 IST)" executed successfully
+2024-02-01 09:13:32,058 [INFO] - Removed job cdafb597414e61f0d4e06d7548b5a62b4e73946622812f88cc464dbcd6752af4
+2024-02-01 09:13:32,058 [INFO] - Running job "resolve_geolocation (trigger: date[2024-02-01 09:13:32 IST], next run at: 2024-02-01 09:13:32 IST)" (scheduled at 2024-02-01 09:13:32.056946+02:00)
+2024-02-01 09:14:32,033 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-02-01 09:14:32 IST)" (scheduled at 2024-02-01 09:14:32.031163+02:00)
+2024-02-01 09:14:32,037 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-02-01 09:14:32,037 [INFO] - Scheduled resolution for request ID cdafb597414e61f0d4e06d7548b5a62b4e73946622812f88cc464dbcd6752af4
+2024-02-01 09:14:32,037 [WARNING] - Execution of job "resolve_geolocation (trigger: date[2024-02-01 09:14:32 IST], next run at: 2024-02-01 09:14:32 IST)" skipped: maximum number of running instances reached (1)
+2024-02-01 09:14:32,038 [INFO] - Removed job cdafb597414e61f0d4e06d7548b5a62b4e73946622812f88cc464dbcd6752af4
+2024-02-01 09:14:32,039 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-02-01 09:14:32,039 [INFO] - Scheduled resolution for request ID 1f22865615487cd102d96034e1261bb6445a47f34d1d301977eb480c7200ecf5
+2024-02-01 09:14:32,040 [INFO] - Running job "resolve_geolocation (trigger: date[2024-02-01 09:14:32 IST], next run at: 2024-02-01 09:14:32 IST)" (scheduled at 2024-02-01 09:14:32.038191+02:00)
+2024-02-01 09:14:32,040 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-02-01 09:15:32 IST)" executed successfully
+2024-02-01 09:14:32,040 [INFO] - Removed job 1f22865615487cd102d96034e1261bb6445a47f34d1d301977eb480c7200ecf5
+2024-02-01 09:14:51,893 [ERROR] - Job "resolve_geolocation (trigger: date[2024-02-01 09:13:32 IST], next run at: 2024-02-01 09:13:32 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 922, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.InterfaceError: Error binding parameter 1 - probably unsupported type.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sidney/code/geo_fast/geolocation_resolve_app.py", line 61, in resolve_geolocation
+    db.query(GeolocationRequestModel).filter(GeolocationRequestModel.id == request_id).update(
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 3271, in update
+    result: CursorResult[Any] = self.session.execute(
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2308, in execute
+    return self._execute_internal(
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2190, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/bulk_persistence.py", line 1617, in orm_execute_statement
+    return super().orm_execute_statement(
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/orm/context.py", line 293, in orm_execute_statement
+    result = conn.execute(
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1416, in execute
+    return meth(
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 517, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1639, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1848, in _execute_context
+    return self._exec_single_context(
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1988, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2344, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/sidney/code/geo_fast/venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 922, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.InterfaceError: (sqlite3.InterfaceError) Error binding parameter 1 - probably unsupported type.
+[SQL: UPDATE geolocation_requests SET locations=?, servers=?, status=? WHERE geolocation_requests.id = ?]
+[parameters: ('Germany/Hesse', ['66.22.84.55'], <GeolocationStatus.RESOLVED: 'Resolved'>, 'cdafb597414e61f0d4e06d7548b5a62b4e73946622812f88cc464dbcd6752af4')]
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2024-02-01 09:15:32,032 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-02-01 09:16:32 IST)" (scheduled at 2024-02-01 09:15:32.031163+02:00)
+2024-02-01 09:15:32,036 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-02-01 09:15:32,036 [INFO] - Scheduled resolution for request ID cdafb597414e61f0d4e06d7548b5a62b4e73946622812f88cc464dbcd6752af4
+2024-02-01 09:15:32,037 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-02-01 09:15:32,037 [INFO] - Scheduled resolution for request ID 1f22865615487cd102d96034e1261bb6445a47f34d1d301977eb480c7200ecf5
+2024-02-01 09:15:32,037 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-02-01 09:16:32 IST)" executed successfully
+2024-02-01 09:15:32,038 [INFO] - Removed job cdafb597414e61f0d4e06d7548b5a62b4e73946622812f88cc464dbcd6752af4
+2024-02-01 09:15:32,038 [WARNING] - Execution of job "resolve_geolocation (trigger: date[2024-02-01 09:15:32 IST], next run at: 2024-02-01 09:15:32 IST)" skipped: maximum number of running instances reached (1)
+2024-02-01 09:15:32,039 [INFO] - Removed job 1f22865615487cd102d96034e1261bb6445a47f34d1d301977eb480c7200ecf5
+2024-02-01 09:15:32,039 [INFO] - Running job "resolve_geolocation (trigger: date[2024-02-01 09:15:32 IST], next run at: 2024-02-01 09:15:32 IST)" (scheduled at 2024-02-01 09:15:32.035498+02:00)
+2024-02-01 09:15:39,109 [INFO] - Scheduler started
+2024-02-01 09:15:39,159 [INFO] - Added job "process_pending_requests_closure.<locals>.process_pending_requests" to job store "default"
+2024-02-01 09:15:39,159 [INFO] - Scheduled background task to process pending geolocation requests.
+2024-02-01 09:16:39,160 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-02-01 09:16:39 IST)" (scheduled at 2024-02-01 09:16:39.158999+02:00)
+2024-02-01 09:16:39,174 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-02-01 09:16:39,174 [INFO] - Scheduled resolution for request ID cdafb597414e61f0d4e06d7548b5a62b4e73946622812f88cc464dbcd6752af4
+2024-02-01 09:16:39,174 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-02-01 09:16:39,174 [INFO] - Scheduled resolution for request ID 1f22865615487cd102d96034e1261bb6445a47f34d1d301977eb480c7200ecf5
+2024-02-01 09:16:39,174 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-02-01 09:17:39 IST)" executed successfully
+2024-02-01 09:16:39,175 [INFO] - Removed job cdafb597414e61f0d4e06d7548b5a62b4e73946622812f88cc464dbcd6752af4
+2024-02-01 09:16:39,176 [INFO] - Running job "resolve_geolocation (trigger: date[2024-02-01 09:16:39 IST], next run at: 2024-02-01 09:16:39 IST)" (scheduled at 2024-02-01 09:16:39.173934+02:00)
+2024-02-01 09:16:39,176 [INFO] - Running job "resolve_geolocation (trigger: date[2024-02-01 09:16:39 IST], next run at: 2024-02-01 09:16:39 IST)" (scheduled at 2024-02-01 09:16:39.174350+02:00)
+2024-02-01 09:16:39,176 [INFO] - Removed job 1f22865615487cd102d96034e1261bb6445a47f34d1d301977eb480c7200ecf5
+2024-02-01 09:17:39,161 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-02-01 09:17:39 IST)" (scheduled at 2024-02-01 09:17:39.158999+02:00)
+2024-02-01 09:17:39,164 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-02-01 09:17:39,165 [INFO] - Scheduled resolution for request ID cdafb597414e61f0d4e06d7548b5a62b4e73946622812f88cc464dbcd6752af4
+2024-02-01 09:17:39,166 [WARNING] - Execution of job "resolve_geolocation (trigger: date[2024-02-01 09:17:39 IST], next run at: 2024-02-01 09:17:39 IST)" skipped: maximum number of running instances reached (1)
+2024-02-01 09:17:39,167 [INFO] - Removed job cdafb597414e61f0d4e06d7548b5a62b4e73946622812f88cc464dbcd6752af4
+2024-02-01 09:17:39,168 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-02-01 09:17:39,168 [INFO] - Scheduled resolution for request ID 1f22865615487cd102d96034e1261bb6445a47f34d1d301977eb480c7200ecf5
+2024-02-01 09:17:39,168 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-02-01 09:18:39 IST)" executed successfully
+2024-02-01 09:17:39,169 [WARNING] - Execution of job "resolve_geolocation (trigger: date[2024-02-01 09:17:39 IST], next run at: 2024-02-01 09:17:39 IST)" skipped: maximum number of running instances reached (1)
+2024-02-01 09:17:39,169 [INFO] - Removed job 1f22865615487cd102d96034e1261bb6445a47f34d1d301977eb480c7200ecf5
+2024-02-01 09:18:11,804 [INFO] - Job "resolve_geolocation (trigger: date[2024-02-01 09:16:39 IST], next run at: 2024-02-01 09:16:39 IST)" executed successfully
+2024-02-01 09:18:39,160 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-02-01 09:19:39 IST)" (scheduled at 2024-02-01 09:18:39.158999+02:00)
+2024-02-01 09:18:39,163 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-02-01 09:18:39,163 [INFO] - Scheduled resolution for request ID 1f22865615487cd102d96034e1261bb6445a47f34d1d301977eb480c7200ecf5
+2024-02-01 09:18:39,163 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-02-01 09:19:39 IST)" executed successfully
+2024-02-01 09:18:39,164 [WARNING] - Execution of job "resolve_geolocation (trigger: date[2024-02-01 09:18:39 IST], next run at: 2024-02-01 09:18:39 IST)" skipped: maximum number of running instances reached (1)
+2024-02-01 09:18:39,165 [INFO] - Removed job 1f22865615487cd102d96034e1261bb6445a47f34d1d301977eb480c7200ecf5
+2024-02-01 09:19:07,470 [INFO] - Scheduler started
+2024-02-01 09:19:07,520 [INFO] - Added job "process_pending_requests_closure.<locals>.process_pending_requests" to job store "default"
+2024-02-01 09:19:07,520 [INFO] - Scheduled background task to process pending geolocation requests.
+2024-02-01 09:20:07,521 [INFO] - Running job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-02-01 09:21:07 IST)" (scheduled at 2024-02-01 09:20:07.520024+02:00)
+2024-02-01 09:20:07,527 [INFO] - Added job "resolve_geolocation" to job store "default"
+2024-02-01 09:20:07,527 [INFO] - Scheduled resolution for request ID 1f22865615487cd102d96034e1261bb6445a47f34d1d301977eb480c7200ecf5
+2024-02-01 09:20:07,527 [INFO] - Job "process_pending_requests_closure.<locals>.process_pending_requests (trigger: interval[0:01:00], next run at: 2024-02-01 09:21:07 IST)" executed successfully
+2024-02-01 09:20:07,528 [INFO] - Running job "resolve_geolocation (trigger: date[2024-02-01 09:20:07 IST], next run at: 2024-02-01 09:20:07 IST)" (scheduled at 2024-02-01 09:20:07.527287+02:00)
+2024-02-01 09:20:07,528 [INFO] - Removed job 1f22865615487cd102d96034e1261bb6445a47f34d1d301977eb480c7200ecf5
+2024-02-01 09:20:23,865 [INFO] - Job "resolve_geolocation (trigger: date[2024-02-01 09:20:07 IST], next run at: 2024-02-01 09:20:07 IST)" executed successfully
